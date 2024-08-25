@@ -23,7 +23,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    UserMessageCard()
+                    UserMessageCard("Lorem Ipsum is the best text anyone can come up with. What is going on? Hey!!!")
                 }
             }
         }
